@@ -11,7 +11,7 @@
     {
       "binding": "DB",
       "database_name": "daily-chain",
-      "database_id": "REPLACE_WITH_YOUR_DATABASE_ID"
+      "database_id": "d0a5c466-53c6-4ac9-91a4-8ceaffec0112"
     }
   ]
 }
