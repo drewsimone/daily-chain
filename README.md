@@ -65,3 +65,4 @@ Nickname, score, the list of names in the chain, a random device id from the pla
     npm run dev                  # http://127.0.0.1:8787
     node test/api.test.js        # needs .dev.vars with ADMIN_TOKEN=testtoken123
     python3 test/e2e.py          # needs Playwright
+
