@@ -1,0 +1,16 @@
+{
+  "name": "daily-chain",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "names": "node scripts/build-names.js",
+    "dev": "wrangler dev",
+    "db:init:local": "wrangler d1 execute daily-chain --local --file=schema.sql",
+    "db:init": "wrangler d1 execute daily-chain --remote --file=schema.sql",
+    "deploy": "npm run names && wrangler deploy"
+  },
+  "devDependencies": {
+    "jsdom": "^24.0.0",
+    "wrangler": "^4.0.0"
+  }
+}
